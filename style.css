@@ -274,7 +274,7 @@ main {
 	align-items: center;
 	gap: 3rem;
 	min-width: 90vw;
-    max-width: 92vw;
+	max-width: 92vw;
 	box-shadow: 1.4px 3.2px 4.8px rgba(0, 0, 0, 0.083),
 		13px 30px 38px rgba(0, 0, 0, 0.13);
 	min-height: 60vh;
@@ -286,15 +286,15 @@ main {
 	align-items: space-between;
 	justify-content: center;
 	gap: 0.5rem;
-    padding: 0 2rem;
-    flex:1;
+	padding: 0 2rem;
+	flex: 1;
 }
 .fourthSection .crate .text .text-container {
-    display: flex;
-    flex-direction: column;
-    align-items: flex-start;
-    justify-content: flex-start;
-    gap: 0.5rem;
+	display: flex;
+	flex-direction: column;
+	align-items: flex-start;
+	justify-content: flex-start;
+	gap: 0.5rem;
 }
 .fourthSection .crate .text span {
 	font-family: "Montserrat", sans-serif;
@@ -319,7 +319,7 @@ main {
 	color: #3d2514;
 	text-shadow: 2px 4px rgba(255, 255, 255, 0.8);
 	text-align: center;
-    text-align: left;
+	text-align: left;
 }
 .fourthSection .crate .image-container {
 	display: flex;
@@ -328,118 +328,117 @@ main {
 	gap: 1rem;
 }
 .fourthSection .crate .image-container img {
-	flex:1;
-    width: 100%;
-    height: 100%;
+	flex: 1;
+	width: 100%;
+	height: 100%;
 	object-fit: contain;
 }
 .fourthSection .crate .text .dotsContainer {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    gap: 1rem;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	gap: 1rem;
 }
 .fourthSection .crate .text .dotsContainer .dot {
-    width: 1rem;
-    height: 1rem;
-    border-radius: 50%;
-    /* background-color: #ffc045; */
-    background-color: #dcdcdc;
-    margin: 2rem 0;
+	width: 1rem;
+	height: 1rem;
+	border-radius: 50%;
+	/* background-color: #ffc045; */
+	background-color: #dcdcdc;
+	margin: 2rem 0;
 }
 .fifthSection {
-    display: flex;
-    padding: 5vh 0;
-    width: 100vw !important;
-    position: relative;
-    align-items: center;
-    justify-content: center;
-    min-height: 100vh;
+	display: flex;
+	padding: 5vh 0;
+	width: 100vw !important;
+	position: relative;
+	align-items: center;
+	justify-content: center;
+	min-height: 100vh;
 }
 .fifthSection img {
-    filter: drop-shadow(0px 14px 40px rgba(0, 0, 0, 0.55));
-    object-fit: contain;
+	filter: drop-shadow(0px 14px 40px rgba(0, 0, 0, 0.55));
+	object-fit: contain;
 }
 
-.fifthSection form{
-    display: grid;
-    grid-template-columns: 1fr 1fr;
-    gap: 2rem;  
-    min-width: 50vw;
-    z-index: -100;
+.fifthSection form {
+	display: grid;
+	grid-template-columns: 1fr 1fr;
+	gap: 2rem;
+	min-width: 50vw;
+	z-index: -100;
 }
-.fifthSection form input{
-    padding: 1rem;
-    border: none;
-    outline: none;
-    border: 1px solid #bebebe;
-    border-radius: 0.5rem;
-    font-family: "Montserrat", sans-serif;
-    font-weight: 400;
-    font-size: 1rem;
-    color: #3d2514;
-    text-shadow: 2px 4px rgba(255, 255, 255, 0.8);
-    text-align: center;
+.fifthSection form input {
+	padding: 1rem;
+	border: none;
+	outline: none;
+	border: 1px solid #bebebe;
+	border-radius: 0.5rem;
+	font-family: "Montserrat", sans-serif;
+	font-weight: 400;
+	font-size: 1rem;
+	color: #3d2514;
+	text-shadow: 2px 4px rgba(255, 255, 255, 0.8);
+	text-align: center;
 }
-.fifthSection form input::placeholder{
-    font-family: "Montserrat", sans-serif;
-    font-weight: 400;
-    font-size: 1rem;
-    color: #3d2514;
-    text-shadow: 2px 4px rgba(255, 255, 255, 0.8);
-    text-align: center;
+.fifthSection form input::placeholder {
+	font-family: "Montserrat", sans-serif;
+	font-weight: 400;
+	font-size: 1rem;
+	color: #3d2514;
+	text-shadow: 2px 4px rgba(255, 255, 255, 0.8);
+	text-align: center;
 }
-.fifthSection form button{
-    background-color: #bf2222;
-    cursor: pointer;
-    border: none;
-    outline: none;
-    padding: 1rem 2.5rem;
-    color: white;
-    font-family: "Alfa Slab One", cursive;
-    font-weight: 500;
-    font-size: 1vw;
-    border-radius: 0.5rem;
+.fifthSection form button {
+	background-color: #bf2222;
+	cursor: pointer;
+	border: none;
+	outline: none;
+	padding: 1rem 2.5rem;
+	color: white;
+	font-family: "Alfa Slab One", cursive;
+	font-weight: 500;
+	font-size: 1vw;
+	border-radius: 0.5rem;
 }
-footer{
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-    padding: 5vh 0;
-    width: 100vw !important;
-    position: relative;
-    min-height: 100vh;
+footer {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+	padding: 5vh 0;
+	width: 100vw !important;
+	position: relative;
+	min-height: 100vh;
 }
-footer .crate{
-    background-color: #3d2514;
-    background-image: url("backgrondFooter.png");
-    background-repeat:round;
-    min-height: 60vh;
-    min-width: 85vw;
-    max-width: 90vw;
-    z-index: 100;
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-    padding: 2rem;
-    
+footer .crate {
+	background-color: #3d2514;
+	background-image: url("backgrondFooter.png");
+	background-repeat: round;
+	min-height: 60vh;
+	min-width: 85vw;
+	max-width: 90vw;
+	z-index: 100;
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+	padding: 2rem;
 }
-footer .crate p{
-    font-family: "Montserrat", sans-serif;
-    font-weight: 400;
-    font-size: 1rem;
-    color: white;
-    text-shadow: 2px 4px rgba(0, 0, 0, 0.8);
-    text-align: left;
-    padding: 2rem 0;
+footer .crate p {
+	font-family: "Montserrat", sans-serif;
+	font-weight: 400;
+	font-size: 1rem;
+	color: white;
+	text-shadow: 2px 4px rgba(0, 0, 0, 0.8);
+	text-align: left;
+	padding: 2rem 0;
 }
-footer .crate .footer-container{
-    display: flex;
-    flex-direction: column;
-    align-items: flex-start;
-    justify-content: center;
-    gap: 2rem;
-    color: white;
-    max-width: 40vw;
+footer .crate .footer-container {
+	display: flex;
+	flex-direction: column;
+	align-items: flex-start;
+	justify-content: center;
+	gap: 2rem;
+	color: white;
+	max-width: 40vw;
 }
